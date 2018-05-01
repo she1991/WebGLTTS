@@ -1,0 +1,34 @@
+# name of the software
+name: Gaming A11Y
+
+project:
+    version: 0.0.0
+    download_url: https://github.com/UTCTL
+
+license:
+    software: MIT License
+    software_url: http://opensource.org/licenses/MIT
+
+    docs: CC BY 3.0
+    docs_url: http://creativecommons.org/licenses/by/3.0/
+
+links:
+    header:
+      - title: WebGLTTS
+        url: webgltts.html
+
+ui:
+    header:
+        color1: "#080331"
+        color2: "#673051"
+        trianglify: true
+
+social:
+
+analytics:
+
+# Build settings
+markdown: kramdown
+exclude:
+    - Gemfile
+    - Gemfile.lock
